@@ -1,0 +1,1 @@
+Téléchargez et stockez la clé web JSON (JWK) publique correspondante pour votre groupe d'utilisateurs. Elle est disponible dans le cadre d'un ensemble de clés web JSON (JWKS). Elle est disponible sous https://cognito-idp.{region}.amazonaws.com/{userPoolId}/.well-known/jwks.json.

@@ -1,0 +1,23 @@
+{
+  "name": "aws-cognito-token-verification",
+  "version": "1.0.0",
+  "description": "Téléchargez et stockez la clé web JSON (JWK) publique correspondante pour votre groupe d'utilisateurs. Elle est disponible dans le cadre d'un ensemble de clés web JSON (JWKS). Elle est disponible sous https://cognito-idp.{region}.amazonaws.com/{userPoolId}/.well-known/jwks.json.",
+  "main": "index.js",
+  "dependencies": {
+    "node-jose": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgoncalv/aws-cognito-token-verification.git"
+  },
+  "author": "jgoncalv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgoncalv/aws-cognito-token-verification/issues"
+  },
+  "homepage": "https://github.com/jgoncalv/aws-cognito-token-verification#readme"
+}
